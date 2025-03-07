@@ -1,0 +1,18 @@
+services:
+  rpage:
+    build: 
+      context: .
+    ports:
+      - "3000:3000"  # Frontend
+      - "3001:3001"  # Backend API
+    volumes:
+      - type: volume
+        source: rpage_data
+        target: /app/data
+    environment:
+      - HOST=0.0.0.0  # Make Vite server accessible outside the container
+    restart: unless-stopped
+
+volumes:
+  rpage_data:
+    external: false

@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+
+# Datas
+data/*
+
+# Build outputs
+/dist/
+/build/
+/.svelte-kit/
+/public/build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+/coverage/
+/.nyc_output/
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Misc
+.vercel
+.netlify
+.cache/
+.output/
+.temp/
+.eslintcache
+TODO.md

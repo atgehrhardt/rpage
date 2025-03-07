@@ -1,0 +1,16 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.github
+.gitignore
+README.md
+.DS_Store
+dist
+# Ignore all data content
+data/
+data/*
+data/outputs/
+data/outputs/*
+data/rpage.db
