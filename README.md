@@ -2,6 +2,13 @@
 
 A simple RPA (Robotic Process Automation) application built with Svelte and TypeScript, using Playwright for web automation.
 
+> *Note:*
+> 
+> *The initial project was created as an attempt to push Claude Code to it's limit, so I included the CLAUDE.md for those curious. 
+It required quote a bit of coaxing and manual intervention, and will likely not be able to be pushed too much further with current AI
+tools, but was very cool to see it get to the initial state. From here forward, while I am a fan of using AI to speed up coding, 
+don't expect AI agents to be able to expand the project much further; I will be working on this manually.*
+
 ## Features
 
 - Dark mode UI
